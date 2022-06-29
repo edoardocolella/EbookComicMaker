@@ -1,1 +1,1 @@
-# MangaFast
+# EbookComicMaker
