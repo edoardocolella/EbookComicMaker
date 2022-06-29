@@ -1,23 +1,19 @@
-package mangaProject;
+package pack;
 
 import java.io.File;
 import java.io.IOException;
 
-import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.pdmodel.PDPage;
-import org.apache.pdfbox.pdmodel.PDPageContentStream;
-import org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject;
 
-public class Manga {
+public class Comic {
     private String name;
     private String author;
 
-    public Manga(String name, String author) {
+    public Comic(String name, String author) {
         this.name = name;
         this.author = author;
     }
 
-    public void createManga(String docPath, String imageDirectory) throws IOException {
+    public void createComic(String docPath, String imageDirectory) throws IOException {
 
         // Loading an existing document
         File file = new File(docPath);
